@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de vacinas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="divHeader">
+            <img src="./img/logoheader.png" alt="img">
+            <h1>Controle de Vacinas</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="divMain">
+            <h2>Cadastrar vacina</h2>
+            <form id="cadastro-vacina" action="get">
+                <div class="divColum">
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" required>
+                </div>
+
+                <div class="divColum">
+                    <label for="cpf">CPF: </label>
+                    <input type="text" id="cpf" required>
+                </div>
+    
+                <div class="divColum">
+                    <label for="dataNascimento">Data de nascimento: </label>
+                    <input type="date" id="dataNascimento" required>
+                </div>
+    
+                <div class="divColum">
+                    <label for="nomeVacina">Nome da vacina: </label>
+                    <input type="text" id="nomeVacina" maxlength="9" required>
+                </div>
+    
+                <div class="divColum">
+                    <label for="dataVacina">Data da vacina: </label>
+                    <input type="date" id="dataVacina" required>
+                </div>
+                
+                <div id="divBut">
+                    <button type="submit">Agendar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p id="agend">Agendamento</p>
+            <p id="resultVacinas"></p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./scp.js"></script>
+</body>
+</html>

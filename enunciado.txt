@@ -1,0 +1,35 @@
+Enunciado
+
+Para melhorar capacidades e conhecimentos que foram abordados aqui, você
+terá o desafio de criar uma aplicação de cadastro de vacinas.
+
+Para isso, você terá que desenvolver um front-end utilizando apenas: HTML, CSS,
+TypeScript e JavaScript, sem utilizar nenhum framework.
+
+ A proposta desse desafio é que você possa ter uma experiência da prática básica
+do que você vai encontrar no mercado de trabalho, pois desenvolver uma competência
+significa justamente ter a habilidade de utilizar os conceitos aprendidos dentro do nosso
+contexto pessoal e profissional, de forma efetiva e eficaz.
+
+Sua empresa foi contratada pela Secretaria de Saúde Municipal para criar uma
+aplicação de controle de vacinas. O sistema deve possuir tela de cadastro de vacinação
+da pessoa, a data de vacinação, o tipo de vacina e calcular a nova data de retorno 30
+dias após a data atual, seguem os atributos a serem utilizados:
+
+• Cpf da pessoa
+• Nome da pessoa
+• Data de Nascimento
+• Nome da Vacina
+• Data de Vacinação
+• Data do Reforço da Vacina (30 dias após a data da vacina)
+
+
+Além disso, deverá possuir também uma tela para listar os dados cadastrados,
+uma vez que não temos um backend que grave as informações num banco de dados.
+Procure documentar o processo de forma clara (nomes de variáveis utilizando a
+técnica “camel-case”, documentação(comentários) antes de pontos cruciais do código.
+Lembre-se: legibilidade, manutenabilidade e coerência.
+
+Quando concluir, compacte a pasta do projeto e poste no AVA na Atividade
+“Desafio Type 2023”.
+Bons estudos.

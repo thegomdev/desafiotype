@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(./img/bgvacina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    max-height: 90px;
+    box-shadow: 0 0 30px #7a7878, 0 0 40px #7a7878, 0 0 10px #7a7878;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+header img {
+    max-width: 5%;
+    max-height: 5%;
+    padding-right: 24%;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divHeader {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    margin-top: 5%;
+}
+
+#divMain {
+    max-width: 35%;
+    background-color: rgb(158, 147, 142);
+    box-shadow: 0 0 30px #ada3a3, 0 0 40px #ada3a3, 0 0 70px #ada3a3;
+    margin-left: 180px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 15%;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+form {
+    align-items: center;
+}
+
+input {
+    max-width: 150%;
+}
+
+#divMain h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#cadastro-vacina {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divColum {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-bottom: 5px;
+}
+
+#divBut {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#central {
+    display: flex;
+    flex-direction: row;
+}
+
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(158, 147, 142);
+    box-shadow: 0 0 30px #ada3a3, 0 0 40px #ada3a3, 0 0 70px #ada3a3;
+    max-width: 30%;
+    margin-left: 220px;
+    color: white;
+}
